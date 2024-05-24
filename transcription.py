@@ -1,6 +1,7 @@
 import assemblyai as aai
+from credentials import API_KEY
 
-aai.settings.api_key = "3307a9a03f4944dc894b4ebea8c6edfa"
+aai.settings.api_key = API_KEY
 
 audio_url = "test.dat.unknown"
 config = aai.TranscriptionConfig(language_code="tr", speaker_labels=True)
